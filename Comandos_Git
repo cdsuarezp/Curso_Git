@@ -44,7 +44,9 @@ git merge cabecera Toca estar en la rama principal (master) y el parametro es la
 
 
 
+git remote add origin https://github.com/cdsuarezp/Curso_Git
 
+git push -u origin 
 
 git log --oneline - Te muestra el id commit y el título del commit.
 git log --decorate- Te muestra donde se encuentra el head point en el log.
