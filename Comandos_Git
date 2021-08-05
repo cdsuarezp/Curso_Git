@@ -1,4 +1,5 @@
--- Configurar respositorio git local
+-- Configurar respositorio git local by cristian
+
 -- email
 git config --global user.email "cdsp10@hotmail.com" 
 --nombre
