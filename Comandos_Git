@@ -34,9 +34,11 @@ git reset 43j5h34jh5345hkj43h5j --soft vuelve a la anterior con el historial
 
 git commit -am "cambio xyz" realiza el commit de una pero no en archivos nuevos
 
-git branch cabecera  crea una nueva rama par atrabajar 
+git branch cabecera  --crea una nueva rama par atrabajar 
 
-git checkout master ir a otra rama
+git branch -d cabecera  --elimina la rama
+
+git checkout master --ir a otra rama
 
 git merge cabecera Toca estar en la rama principal (master) y el parametro es la rama con la que se quiere fusionar o alrevez XD
 
